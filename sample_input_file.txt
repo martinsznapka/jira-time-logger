@@ -1,0 +1,12 @@
+# add a comment like this. 
+# comments are ignored. any white spaces are ignored
+
+# a date in the format like provided below. dd/mm/yy. Any entries below this date will be considered as work done on that date. 
+Date: 07/03/22
+
+#this header is just for information about the format to be used when adding new lines for time log details. 
+Jira-Id    | time span	 | description
+# for each time log for tempo, add a line in plain text file in this format: Jira-Id | start_time-end_time | description of work. an example is shown below
+PMCA-15370 | 09:55-10:15 | MCA Daily meeting
+
+# to add work for another day, add the Date just like described above and continue adding the time log lines below it.
